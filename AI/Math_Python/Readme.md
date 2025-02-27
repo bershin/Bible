@@ -1,9 +1,8 @@
 ### Install Jupyter notebook locally in Anaconda
 Download https://www.anaconda.com/download-success & install.
- Update Anaconda
- ```
- conda update --all
- ```
+Start anaconda -> `anaconda-navigator`
+Update Anaconda -> `conda update --all`
+Start jupyter notebook -> jupyter_mac.command
 
 Online: 
 - https://jupyter.org/try
