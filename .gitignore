@@ -1,0 +1,53 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn.lock
+package-lock.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Cloud & Deployment
+*.zip
+*.tar
+.DS_Store
+.idea/
+.vscode/
+*.bak
+*.swp
+
+# Build artifacts
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# Cloud Storage & Backup Files
+backup/
+data/
+*.bak
+*.tmp
+
+# API Keys or Credentials (Ensure you never commit sensitive info)
+.credentials
+config.json
+secrets.json
+*.pem
+*.crt
+*.key
+
+# Miscellaneous
+Thumbs.db
+*.DS_Store

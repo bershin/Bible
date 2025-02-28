@@ -34,13 +34,13 @@ Variables are declared using
 - const -> immutable after declaring
 - var -> Old way of doing(differs in scope)
 
-
 ## Unary operater.
 - Variable can do arithemetic opeartion and assign it back without explicit assignment
     - Works in addition/substraction & only for incrementing/decrement one at a time.
     - instead of `sum = sum + 1` can use `sum++`
 - For others use compination of operator & assignmnet
     - instead of sum `avg = avg / 4` use `avg/=4`
+- The unary plus (+) operator in JavaScript is a shorthand way to convert a value into a number.
 
 ## Predefined Math function
 - Math.PI / Math.abs/pow
