@@ -2,8 +2,8 @@
 - Superset to javaScript.
 - Program written above javascript.
 - Write clean code easier.
-- Browser & nodejs Cannot execute tyoescript.
-- TypeScript is a powerful compiler/tool rns on TS to convert into JS.
+- Browser & nodejs Cannot execute typescript directly.
+- TypeScript is a powerful compiler/tool runs on TS to convert into JS.
 
 ### Advantages of TypeScript:
 - Types
@@ -58,7 +58,7 @@ Note: Install nodejs to get npm, which used to install typescript.
 - Start the lite server `npm start`
 - Open browser in the given port.
 
-### How do you start using other Typescript project
+### How do you start using other Typescript project from "github"
 - Usually projects remove "node_modules" before uploading in github.
 - Run `npm install` to install all package from "package.json" file
 - Use `npm start` to start the server
