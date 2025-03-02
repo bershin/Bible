@@ -1,0 +1,12 @@
+Get two inputs and add the result and output in console when add button is clicked.
+    - If input is a string the result will be concatination in JS(logical error)
+    - You can avoid by type checking and correcting in JS
+    - You can throw exception if string
+    - But all this you can do in runtime.
+- Use typescript to avoid this error in compilation.
+    - Add parameter as number type
+    - It works for input given in file
+    - What about input given in runtime via HtmlinputElement
+        - ! means not "null" will be passed
+        - typecasting "! as HTMLInputElement"
+        - Parse the input to number

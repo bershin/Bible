@@ -18,8 +18,6 @@ using-ts.ts:10:21 - error TS2345: Argument of type 'string' is not assignable to
 
 10     console.log(sum(inp1.value, inp2.value))
                        ~~~~~~~~~~
-
-
 Found 1 error in using-ts.ts:10
 */
 submitButton.addEventListener('click', function(){

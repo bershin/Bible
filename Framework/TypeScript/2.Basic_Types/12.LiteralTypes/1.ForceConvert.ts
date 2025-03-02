@@ -10,7 +10,6 @@ function combine(inp1: number | string, inp2: number | string, convert: string) 
     }else{
         return result.toString()
     }
-    
 }
 
 console.log(combine(10, 20, "as-number")); // 30

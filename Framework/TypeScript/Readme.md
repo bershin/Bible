@@ -1,7 +1,7 @@
 ### What is typescript?
 - Superset to javaScript.
 - Program written above javascript.
-- Write clean code easier.
+- Write less error prone & clean code easier.
 - Browser & nodejs Cannot execute typescript directly.
 - TypeScript is a powerful compiler/tool runs on TS to convert into JS.
 
@@ -18,8 +18,8 @@
 
 ### Extention for VSCode
 - ESLint (Code quality check)
-- Material Icon Theme (Visual)
 - Path Intellisense (Useful for import)
+- Material Icon Theme (Visual)
 - Prettier - Code formatter (Used for format, indentation, semicolon)
 
 ### Install TypeScript
