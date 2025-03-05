@@ -1,9 +1,14 @@
 ## Shorthand Object Property
+- Task:
+    - Return as an object, the max, min, sum & avg of an array.
 - If the key and value name is same, you can use any one in object literals.
+- Task
+    - Above task
+    - Pick a card and return as object
 
 ## Computed Properties
 - Dynamic keys is possible only by assignment before.
-- You can have synamic key by enclosing it in square bracket.
+- You can have dynamic key by enclosing it in square bracket.
 - Evaluate an calculation in dynamic key
 
 ## Adding Methods/Functions to our objects.
@@ -31,13 +36,13 @@
 ## Deck challange
 - Object pass as reference in nodejs
 - As function 
-    - Writing as function, you may need to pass the created deck each time. Which is  not look nice.
-    - You may also need to return values.
+    - 🚫 Writing as function, you may need to pass the created deck each time. Which is  not look nice.
+    - 🚫 You may also need to return values.
     - You may also need to have hold of values.
-    - ** Keeping deck as global value, will not allow us to create more than one deck.
+    - 🚫 Keeping deck as global value, will not allow us to create more than one deck.
 - As Object
-    - All relevent info are kept in one blace.
+    - All relevent info are kept in one place.
     - Grouping values with functionality.(things qith actions)
     - Not need to keep hold of any variables.(Every thing is stored inside object and methods act on object)
     - Its possible by "this" keyword.
-    - ** Cannot create more than one deck
+    - 🚫 Cannot create more than one deck

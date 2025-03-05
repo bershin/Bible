@@ -3,14 +3,18 @@ Types allow you to detect errors early and avoid some runtime errors.
 TS types are checked during compilation, JS types during runtime.
 - numbers
     - Eg) 1, 5.3, -10 
+    - ❌ No explicit float type for JS & TS
     - No difference between integer and floats.
-    - All numbers are float by default. Eg) 5 -> 5.0
+        - All numbers are float by default. Eg) 5 -> 5.0
+    - Task - Catch error in compilation(development)
+        - Add function with number & String in JS
+        - Add number type in TS to ensure we are not passing anything except number by mistake.
 - String 
     - 'Hi', "Hi", `Hi`
     - All text values
 - Boolean
     - true, false
-    - No truthy or falsy value(0, null, false, "" means false)
+    - In TS, No truthy or falsy value(0, null, false, "" means false) like JS
 - Arrays
     - [1,2,3]
     - Any JS object, more specific types are possible.

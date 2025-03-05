@@ -7,4 +7,4 @@ function add(a, b) {
 var num1 = "6";
 var num2 = 2.8;
 var result = add(num1, num2);
-console.log(result);
+console.log(result); //62.8
