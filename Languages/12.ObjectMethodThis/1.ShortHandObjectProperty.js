@@ -29,7 +29,7 @@ const rating = [4.5, 5.0, 3.4, 2.6, 3.9]
 const stat = getStat(rating)
 console.log(stat)
 
-// Pich a card
+// Pick a card
 
 const pickCard = (arr) => arr[Math.floor(Math.random() * arr.length)]
 

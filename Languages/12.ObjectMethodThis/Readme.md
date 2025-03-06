@@ -1,31 +1,19 @@
 ## Shorthand Object Property
-- Task:
-    - Return as an object, the max, min, sum & avg of an array.
 - If the key and value name is same, you can use any one in object literals.
-<<<<<<< HEAD
-- Task
-    - Above task
-    - Pick a card and return as object
-
-## Computed Properties
-- Dynamic keys is possible only by assignment before.
-- You can have dynamic key by enclosing it in square bracket.
-- Evaluate an calculation in dynamic key
-
-=======
     - Task: Return max, min, sum, avg as object from an given array.
     - Task: Return a random card as object from an given array of suits & numbers.
+- Introduced in ES6 not supported in I.E
 
 ## Computed Properties
 - Dynamic keys is possible only by assignment before.
-    - Task: Add dynamic key traditionally in object.(director, hero)
+    - Task: Traditinal way of add dynamic key in object.(director, hero)
 - You can have dynamic key by enclosing it in square bracket.
     - Task How to add dynamic key directly inside object. Also, Evaluate an calculation in dynamic key
 - Task: Function which recieves obj, key value and return a new object vy adding key/value in it.
->>>>>>> abaf7e6 (update this)
+
 ## Adding Methods/Functions to our objects.
 - Adding function as property to our object is called methods.
-    - We do this to group functions together and organization.
+    - We do this to "group functions together" and organization structure.
     - "Hello".toUpperCase() - This is a method, lives in string object.
     - Can be written shorter removing "function" and no key.
 - Task:
@@ -38,7 +26,7 @@
 - If the same function is as method in object, calling method will refer to the properties in that object.
 - In an object, this referes to the object itself, not the window. This is important because it helps to refer the properties inside object by the method.
     - Task: enclose same function inside an object and call it.
-    - Task: In the function(person) print the properties in object.
+    - Task: In the function(person) print the properties of the object.
     - Task: use variable name instead of "this.name"
 - Method can call another method inside it using this keyword. The value of "this" depends on the "invocation context" the function it is used in.
     - Task: Call method inside a method using this.
