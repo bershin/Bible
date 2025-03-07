@@ -11,7 +11,6 @@ for (let i = 0; i < 5; i++) {
 }
 
 // Dice rolling
-
 function rollDie() {
   let roll = Math.floor(Math.random() * 6) + 1;
   console.log(`Rolled: ${roll}`);

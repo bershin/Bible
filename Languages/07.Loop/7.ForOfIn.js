@@ -1,9 +1,11 @@
 players = ['Messi', 'Ronaldo', 'Neymar', 'Mbappe'];
+
 // Simple for loop on list
 for(let i = 0; i < players.length; i++) {
     console.log(players[i]);
 }
 
+/****************** FOR OF 'STRING' & 'ARRAY' ***********************/
 // For of loop on list
 for (let player of players) {
     console.log(player);
@@ -34,6 +36,7 @@ for(let i = 0; i < words1.length; i++) {
     console.log(words1[i], words2[i]);
 }
 
+/****************** FOR OF OBJECT ***********************/
 // for of loop on object
 const person = {
     name: "John",
@@ -54,25 +57,20 @@ for(let val of Object.values(fitbit)) {
 }
 console.log(tot)
 
-// Find index in "for of"
+/****************** FOR OF 'ARRAY' INDEX ***********************/
 const items = ["apple", "banana", "cherry"];
 
 for (const [index, value] of items.entries()) {
     console.log(`Index: ${index}, Value: ${value}`);
 }
 
-
-// for in loop on object
+/****************** FOR IN ***********************/
+// for in loop on object return key of "object"
 for(let key in person) {
     console.log(key, person[key]);
 }
 
-// for in loop on object return key of object
-for(let key in person) {
-    console.log(key, person[key]);
-}
-
-// for in loop on array return index of array
+// for in loop on array return index of "array"
 for(let index in words1) {
     console.log(index, words1[index]);
 }

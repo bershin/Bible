@@ -6,4 +6,3 @@ console.log(1 + NaN) // NaN
 
 console.log(1/0) // Infinity
 console.log(-1/0) // -Infinity
-

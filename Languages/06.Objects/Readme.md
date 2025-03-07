@@ -1,21 +1,28 @@
-### What is Objects(Python calls "dictionary")
-Object allows us to store data where we can associate things in group, pieces of data together in group.
-    - Rather than ordering data by index, we can specify labels.
-    - In Python Objects are called 'Dictinaries'
-    - Here we associate value to variable and group them.
-- Object is a container, contain information in pairs(ket/value)
-    - Key is a kind of label given to associate a value.
+### Where Array is not fit for?
+- Array is great fit for ordered information.
+- Its not good in case to know what each value represent.
+- Array is useful if you want the value in order.
 
 ### Representation of object
-- Objects are collection of properties, enclosed by curly braces {}
+- Objects are collection of properties, enclosed by curly braces {}(called object literal)
     - Properties are a key-value pair, they uses "custom keys" rather than using index.
-        - Example `"hello".length` length is a propery in string object.
     - Key and value are seperated by colon(:). Space doesn't matter.
     - Each item is seperated by comma(,) last item is optional.
     - Unlike 'JSON' except string values other key and value doesn't need to be enclosed in quotes.
-- All keys are converted to string
-    - value can be "john", 2, true
-    - Not printed in order like arrays because it can be distinquesed by keys.
+    - All keys are converted to string, value can be of "john", 2, true
+    - When object stored in a variable, the reference is stored in variable. So that the variable can be an constant like array.
+
+### `"hello".length` length is a propery in string why.
+- In Javascript all are objects, that why string has property.
+- Even Array is an object where its index are keys.
+
+### Why Object not printed in order like arrays?
+- Because it can be distinquesed by keys.
+
+### What is Objects(Python calls "dictionary")
+Object is a container/blob allows us to store data where we can associate things in group, pieces of data together in group, information in pairs(key/value)
+    - Rather than ordering data by index, we can specify labels. Key is a kind of "label" given to associate a value.
+    - Here we "associate value to variable" and "group them".
 
 ### Creating object literals
 - `const myObj = { key1:value1, key2:value2}`
@@ -25,7 +32,7 @@ Object allows us to store data where we can associate things in group, pieces of
     - Value can be string, number, boolean, arrays or object itself.
 
 ### Ways of accessing value
-Instead of index, we use keys, Access all keys using quotes, except dynamic variable and invalid identifier.
+Instead of index, we use keys, Access all keys using quotes, except dynamic variable and "invalid identifier".
 - Valid variables like key can be accessed by '.'
     - `obj.key` -> If the key is a string with no spaces.
 - Use [] for invalid identifier(invalid variables). With or without quote
@@ -34,6 +41,7 @@ Instead of index, we use keys, Access all keys using quotes, except dynamic vari
     - Key as dynamic variable do not needs quote to enclose it.
         - `obj[key]` -> if key is a variable.
 - "undefined" while accessing keys not in the object.
+    - Same as in array accessing out of range values.
 ### Adding & Updating object
 Access the keys if 'undefined' - add value. If contains, update value.
 - `obj.key` (or) `obj["key"]`

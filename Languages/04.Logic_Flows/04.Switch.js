@@ -1,3 +1,8 @@
+/*
+    Find day of week from the given number
+*/
+
+//*************** Using IF ELSE *****************
 let day = 3
 
 if(day === 0){
@@ -17,6 +22,8 @@ if(day === 0){
 }else{
     console.log("Invalid day")
 }
+
+//*************** Using SWITCH CASE *****************
 
 switch (day){
     case 0:
@@ -44,7 +51,7 @@ switch (day){
         console.log("Invalid day")
 }
 
-// ==============
+//*************** Using SWITCH CASE OR *****************
 let emoji = "sad face"
 switch(emoji){
     case 'happy face':

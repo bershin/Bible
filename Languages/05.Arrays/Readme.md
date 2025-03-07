@@ -1,7 +1,7 @@
 ## Arrays
 Arrays are collection of values
-- In JavaScript arrays can have same or mixed types.
-- arrays are Ordered
+- In JavaScript arrays can have "same or mixed" types.
+- **Arrays are Ordered
 
 ### Arrays are mutable
 - Update items in array - using index

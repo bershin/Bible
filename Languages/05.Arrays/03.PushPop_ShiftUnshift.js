@@ -45,7 +45,7 @@ console.log(tamilSongs)
 //     'aasai nooru vagai',
 //     'meenamma..'
 //   ]
-console.log(tamilSongs.pop()) // meenamma..
+console.log(tamilSongs.shift()) // meenamma..
 console.log(tamilSongs)
 // [
 //     'ninu kori',

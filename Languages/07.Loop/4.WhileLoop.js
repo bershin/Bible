@@ -6,7 +6,6 @@ while( i < 10) {
 } 
 
 // Guess game
-
 const target = Math.floor(Math.random() * 10);
 let guess = Math.floor(Math.random() * 10);
 let count = 0;

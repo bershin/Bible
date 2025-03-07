@@ -7,6 +7,7 @@ console.log('a'>'A')
 console.log(4 == 4)
 console.log('a' == 'a')
 console.log(false == false)
+console.log(5 % 2 !== 0)
 
 console.log(4 == '4')
 console.log(4 == '4')

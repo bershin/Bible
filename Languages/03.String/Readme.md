@@ -1,6 +1,7 @@
-## String are immutable.
+######################## String are immutable. ##################
 ### String Representation
-String is anything in Single or double quote with consistent ( Don't mix)
+String is anything in Single or double quote with consistent 
+- ( Don't mix)
 
 ### String escape character
 - \n, \', \", \t, \\
@@ -18,6 +19,10 @@ String concat with (+) operator.
 String are indexed as arrays starting from 0 to length -1
 - Out of bound index represent "undefined".
 
+### String Property
+Key attached to the string
+- string.length -> to find the length (number of character in string) eg) "hello".length
+
 ### String Methods
 Methods are actions that can be performed on a particular string.
 - Needs a parntheses. Eg) Format "string.method()"
@@ -29,7 +34,7 @@ Methods are actions that can be performed on a particular string.
     - Chaining
         - Chain multiple methods for a string.
 - Needs a parntheses with argument. Eg) Format "string.method(arg)"
-    - indexOf(arg)
+    - indexOf(one arg)
         - Matches the arg with the string and return the starting index matched.
         - If more than one match the first matched index is returned
         - If no match "-1" is returned.

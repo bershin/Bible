@@ -5,6 +5,15 @@ function Car(make, model, year){
     this.make = make
     this.model = model
     this.year = year
+}
+
+Car("Tesla", "Yola", 2015) // undefined
+
+
+function Car(make, model, year){
+    this.make = make
+    this.model = model
+    this.year = year
     console.log(this)
 }
 
@@ -17,10 +26,16 @@ Car("Tesla", "Yola", 2015) // Window {window: Window, self: Window, document: d
 */
 
 new Car("Tesla", "Yola", 2015) // Car {make: 'Tesla', model: 'Yola', year: 2015}
+/* What happens when we call "new"
+- Create a blank, plain JavaScript object
+- Passes the newly created object as the this context.
+- Return this if the function doesn't return its own object.
+- Links(sets the construtor of) this object to another object
+*/
 
 /*
     2 Test: Adding functions inside function
-    Result: Expand object to see the rgb function, directly in object, This is not expected.
+    Result: Expand object to see the "rgb" function, directly in object, This is not expected.
 */
 
 function Car1(make, model, year){

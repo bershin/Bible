@@ -7,21 +7,13 @@
 - Undefined - Variables that do not have assigned values.
 
 - NaN -> NaN is a number that represent, NOT a number
-- Infinity / -Infinity -> zero devide by anything
+    - Zero divide by anynumbers (or) NaN itself
+- Infinity / -Infinity
+    - Anynumber divide by zero.
 
 ### Variables can change type
 let age = 12
 age = "twelve"
-
-### Running JavaScript
-- Chrome Browser Console
-
-## Operator:
-### JavaScript
-+ , -, *, /, **
-
-## Precedence
-BODMAS
 
 ### Variable Name
 - Cannot use predefined variables (let, document)
@@ -33,6 +25,13 @@ Variables are declared using
 - let - Latest and common way of declaring
 - const -> immutable after declaring
 - var -> Old way of doing(differs in scope)
+
+## Operator:
+### JavaScript
++ , -, *, /, **
+
+## Precedence
+BODMAS
 
 ## Unary operater.
 - Variable can do arithemetic opeartion and assign it back without explicit assignment
@@ -54,3 +53,4 @@ Note: null is an object.
 
 ### Convert between types
 - parseInt / parseFloat
+- The unary plus (+) operator in JavaScript is a shorthand way to convert a value into a number.
