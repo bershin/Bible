@@ -19,7 +19,7 @@ const fakeRequest = (url)=>{
     })
 }
 
-fakeRequest('/abou').then((res)=>{
+fakeRequest('/about').then((res)=>{
     console.log("Success")
     console.log(res.status, res.data)
 }).catch((res)=>{

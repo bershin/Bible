@@ -1,5 +1,7 @@
-/* Avoid touching function definition for repeated calling, instead
-    Calling the repeated function inside the function as a callback */
+/* 
+    Avoid touching function definition for repeated calling, instead
+    Calling the repeated function inside the function as a callback 
+*/
 // const btn = document.querySelector("button")
 // const moveX = (element, width, delay, callback)=>{
 //     setTimeout(()=>{
