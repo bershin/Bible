@@ -1,7 +1,7 @@
 ### What is callstack?
 A mechanism in JavaScript to keep track of functions called.(finger in a book)
 - http_client_request -> Promise(manage async) -> Async -> call back
-- Call back Task
+- Callstack Task
     - isRightAngleTriangle(3,4,5) -> square -> multiply
     - renderRandText(phrase, document.body) -> create element & append -> repeat(8) -> scream(upper),
 - DEBUG the task and watch the "callstack" in browser
