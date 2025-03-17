@@ -1,5 +1,5 @@
 Issue:
-    With axios use then to get the data
+    With axios use "then" to get the async data
     Cannot make axios to return data directly to variable. 
     It returns a promise object.
     So, the return value is not what we expect.

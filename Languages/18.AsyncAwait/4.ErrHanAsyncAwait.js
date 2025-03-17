@@ -1,19 +1,17 @@
-// async function getPlanet(){
-//     const res = await axios.get("https://swapi.dev/ap/planets")
-//     console.log(res) // ERR_FAILED 404 (Not Found)
-// }
+async function getPlanet(){
+    const res = await axios.get("https://swapi.dev/ap/planets") // Removed a letter
+    console.log(res) // ERR_FAILED 404 (Not Found)
+}
+getPlanet()
 
-// getPlanet()
 
-
-// async function getPlanet(){
-//     const res = await axios.get("https://swapi.dev/ap/planets")
-//     console.log(res) // ERR_FAILED 404 (Not Found)
-// }
-
-// getPlanet().catch(err=>{
-//     console.log("Error: Cannot retrieve data", err)
-// })
+async function getPlanet(){
+    const res = await axios.get("https://swapi.dev/ap/planets")
+    console.log(res) // ERR_FAILED 404 (Not Found)
+}
+getPlanet().catch(err=>{
+    console.log("Error: Cannot retrieve data", err)
+})
 
 async function getPlanet(){
     try{
@@ -24,5 +22,4 @@ async function getPlanet(){
     }
 
 }
-
 getPlanet()

@@ -27,7 +27,7 @@ greet3().then(val=>{
 function add(x,y){
     return x + y
 }
-console.log(add(2,3))
+console.log(add(2,3)) // 5
 
 function add1(x,y){
     if( typeof x !== 'number' || typeof y !== 'number'){

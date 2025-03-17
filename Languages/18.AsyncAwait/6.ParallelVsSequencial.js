@@ -34,11 +34,12 @@ function changeBodyColor(color, delay){
         }, delay)
     })
 } 
+changeBodyColor('teal', 2000)
 
 /* Sequence,
-    teal in first 5s
-    pink in next 1s, i.e, 6th second
-    teal in next 3s, i.e 9th second
+    teal after first 5s
+    pink after next 1s, i.e, 6th second
+    teal after next 3s, i.e 9th second
 */
 // async function lightShowSequence(){
 //     await changeBodyColor("teal", 5000)
@@ -51,7 +52,7 @@ function changeBodyColor(color, delay){
 /* Parallel,
     pink in first 2s
     blue in next 6s, i.e 4th second
-    teal in next 10s, i.e 3th second
+    teal in next 9s, i.e 3th second
     This works because await does not block the execution of other pending promises
     —it just waits for the first one it's called on.
 */
