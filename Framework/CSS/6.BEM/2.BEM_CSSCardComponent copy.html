@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            width: 250px;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+        }
+        .card__btn{
+            background-color: transparent;
+            color: white;
+            padding: 10px;
+            border: greenyellow solid 2px;
+            font-size: 20px;
+        }
+        .card__btn--red{
+            background-color: red;
+        }
+        .card__btn:hover{
+            background-color: greenyellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="card__image" src="https://picsum.photos/250/300" alt="">
+        <h1 class="card__title">Ooty:Queen of Hills</h1>
+        <p class="card__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi natus, ipsa quasi dolorum at quis distinctio accusamus quo nostrum adipisci? Nemo saepe cum ab nostrum. Odio harum dolorum libero quidem!</p>
+        <input class="card__btn" type="button" value="Checkout">
+        <input class="card__btn card__btn--red" type="button" value="Delete">
+    </div>
+</body>
+</html>

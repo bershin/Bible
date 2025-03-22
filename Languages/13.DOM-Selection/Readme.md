@@ -5,7 +5,7 @@
 - input type="text" -> input[type="text"] {}
 
 ## Document Object Model
-When a webpage loads up the browser turns all elemnts into objects in heirrarcial order.
+When a webpage loads up, the Browser turns all elemnts into JSobjects in heirrarcial order.
 - Every webpage has "document"
     - type "console.dir(document)" in console and expand to check url changes for each website.
     - Document contains many properties and methods.
@@ -23,14 +23,14 @@ When a webpage loads up the browser turns all elemnts into objects in heirrarcia
 ##  getElementByID
 - See image object
     - `const img = document.getElementById("bear-photo")` 
-    - `console.dir(img)` return "null" if no math, otherwise return object.
+    - `console.dir(img)` return "null" if no match, otherwise return object.
     - Look for type in '__proto__' property
 
 ##  getElementsByTagName
 - `const p = document.getElementsByTagName('p')` or `document.getElementsByTagName('input')` Return HTMLCollection(2)[...] or empty HTMLCollection[] if not found.
-    - HTMLCollection is type in DOM for representing collection of objects not an array.
-    - Few array operation like `p.length`, `p[0]` & iteration over it is possible.
-    - Its a light weight structure store elements.
+    - "HTMLCollection" is type in DOM for representing collection of objects NOT an array.
+        - Few array operation like `p.length`, `p[0]` & iteration over it is possible.
+        - Its a light weight structure store elements.
     - Turn it to array `const parArr = [...p]`
 ```
     // Fill input with value.
@@ -53,7 +53,7 @@ When a webpage loads up the browser turns all elemnts into objects in heirrarcia
     - Id -> `document.querySelector('#main')`
     - Attribute -> `document.querySelector('input[type="password"]')`
 - querySelectorAll: Can select every thing. Returns a NodeList()[]
-    - NodeList is same like HTMLCollection
+    - "NodeList" is same like "HTMLCollection"
     - has forEach
 
 
@@ -85,7 +85,7 @@ Rotate All Element
 imgObj.style.transition = 'all 2s';
 
 const allEl = document.body.children;
-
+<!-- const allEl = document.getElementById('viewport').children; -->
 setInterval(() => {
     for (let el of allEl) {  // Use for...of instead of for...in
         const rot = Math.floor(Math.random() * 360);  // Add parentheses to Math.random
@@ -97,3 +97,8 @@ setInterval(() => {
     }
 }, 2000);
 ```
+
+Create a stylesheet and add:
+const sheet = new CSSStyleSheet();
+sheet.replaceSync('* {transition: all 2s}')
+document.adoptedStyleSheets = [sheet]

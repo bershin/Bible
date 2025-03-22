@@ -12,7 +12,8 @@ async function greet2(name){
     return `${name} You are welcome`
 }
 
-greet2("John").then(name=>{
+greet2("John")
+.then(name=>{
     console.log(name)
 })
 
@@ -20,7 +21,8 @@ async function greet3(){
     return `You are welcome`
 }
 
-greet3().then(val=>{
+greet3()
+.then(val=>{
     console.log(`John ${val}`)
 })
 

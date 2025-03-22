@@ -54,5 +54,5 @@ Variable visibility: Which part of the program have access to the variable.
 - For "let" & "const" the variable is not hoisted
 - functions are hoisted
 - function expression are not hoisted
-    - With let the variable not not hoisted
+    - With let the variable not hoisted
     - with var variable is hoisted but not value, so executing "undefined" is error
