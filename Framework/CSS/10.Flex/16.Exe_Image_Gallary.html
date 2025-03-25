@@ -1,0 +1,63 @@
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .container{
+        display: flex;
+        background-color: rosybrown;
+        font-family: sans-serif;
+        padding: 5px;
+    }
+
+    .section-1{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        height: 30px;
+        border-radius: 10%;
+        font-size: 30px;
+    }
+    .section-2__gallery{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .section-2__gallery img{
+        width: 20%;
+    }
+    .section-2__title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-2__title h1{
+        margin: 0 auto;
+        text-align: center;
+        margin: 20px;
+        border-bottom: black solid 3px;
+        padding: 5px;
+        width: 500px;
+    }
+</style>
+
+<div class="container">
+    <div class="section-1">Header</div>
+    <div class="section-2">
+        <div class="section-2__title">
+            <h1>Image Gallery</h1>
+        </div>
+        <div class="section-2__gallery">
+            <img src="./images/img1.jpg" alt="">
+            <img src="./images/img2.jpg" alt="">
+            <img src="./images/img3.jpg" alt="">
+            <img src="./images/img4.jpg" alt="">
+            <img src="./images/img1.jpg" alt="">
+            <img src="./images/img2.jpg" alt="">
+            <img src="./images/img3.jpg" alt="">
+            <img src="./images/img4.jpg" alt="">
+        </div>
+    </div>
+
+</div>

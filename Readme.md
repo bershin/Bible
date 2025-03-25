@@ -4,6 +4,11 @@
 % cat ~/.ssh/id_ed25519.pub
 ```
 Add the public key to https://github.com/settings/keys by "New SSH key"
+
+Switch between keys:
+```
+ssh-add -K ~/.ssh/github-personal
+```
 Now clone:
 ```
 % git clone git@github.com:bershin/Bible.git
