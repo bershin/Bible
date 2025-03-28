@@ -1,0 +1,40 @@
+<style>
+    .boxcircle{
+        margin: 100px;
+        border: solid black 1px;
+        padding: 5px;
+        display: flex;
+        gap: 5px;
+        width: fit-content;
+    }
+    .red{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+    .blue{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+    }
+
+    @media screen and (max-width:800px){
+        .blue{
+            display: none;
+        }
+        .red{
+            border-radius: 50px;
+        }
+    }
+</style>
+
+<div class="boxcircle">
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="red"></div>
+    <div class="blue"></div>
+</div>

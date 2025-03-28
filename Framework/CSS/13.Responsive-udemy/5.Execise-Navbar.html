@@ -1,0 +1,29 @@
+<style>
+    .navbar{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        display: flex;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    /* Mobile view */
+    @media screen and (max-width:600px){
+        .menu{
+            display: none;
+        }
+    }
+</style>
+
+<div class="navbar">
+    <h1>Navbar</h1>
+    <div class="menu">
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Contact Us</p>
+    </div>
+</div>

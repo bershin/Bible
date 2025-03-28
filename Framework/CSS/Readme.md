@@ -40,12 +40,12 @@ comment
 ### Color and background color
 - color ->  is defined for text 
 - background-color -> is defined for element
-    - transparent -> applied parent color.
+    - "transparent" -> applied parent color.
 ### Width & Height
 - Set height & width for an element. 
     - Text fold as per the element size until its bigger or equal.
 - Usually for div
-- width: 10px (or) 100%
+- width: 10px (or) 100% (or) fit-content
 ### Text Alignment
 - text-align -> aligns the text not the element. right, left, center (Visualize by setting background color)
     - applies to inline and inline-block elements inside the block container.
@@ -118,10 +118,14 @@ same style - latest one take effect
 
 
 ## Fonts
+### Font awesome
 Font awesome-cdn -> https://cdnjs.com/libraries/font-awesome/6.4.2
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 Select icon from - https://fontawesome.com/icons
+### Flat Icon
+https://www.flaticon.com/
 
 ## Images
+### Unsplash
 https://unsplash.com/ -> Select landscape / portrait

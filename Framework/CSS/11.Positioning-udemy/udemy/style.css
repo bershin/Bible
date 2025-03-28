@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Gabarito", sans-serif;
+    font-weight: 400;
+}
+
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-bottom: solid black 1px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+}
+
+.navbar__s1__title{
+    color: #A435F0;
+}
+
+.navbar__S2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 20px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar__S2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+}
+.navbar__S2 input:focus{
+    outline: none;
+}
+
+.navbar__S3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mylearning{
+    position: relative;
+    cursor: pointer;
+}
+
+.mylearning__popup{
+    border: solid black 1px;
+    width: 100px;
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+    top: 150%;
+    background-color: white;
+    display: none;
+}
+
+.mylearning:hover .mylearning__popup{
+    display: block;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: black solid 1px;
+}
+
+.categories p{
+    color: white;
+    background-color: #A435F0;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.sale-image{
+    position: relative;
+}
+
+.sale-image img{
+    width: 100%;
+}
+
+.sale-image__offer{
+    width: 35%;
+    border: solid black 1px;
+    padding: 2%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: white;
+}
+
+.recommended{
+    padding: 20px;
+}
+
+.recommended__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.course-card{
+    width: 300px;
+}
+
+.course-card img{
+    width: 100%;
+    height: 50%;
+}
+
+.topics{
+    padding: 20px;
+}
+
+.topics__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.topics__container p{
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.popular{
+    padding: 20px;
+}
+
+.popular__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.popular-card{
+    width: 300px;
+}
+
+.popular-card img{
+    width: 100%;
+    height: 50%;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+
+.footer__one p{
+    margin: 20px;
+}
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
