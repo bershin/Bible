@@ -1,11 +1,15 @@
-### What is Scope?
-// Variable within function are visible only inside the function.
+// Define a function with different type of variable in it. 
+// Can we access any of those variable outside the function in any means?
+// like directly printing the value of the variable outside function.
+// or execute the function and directly printing the value of the variable outside function.
+
 function lol(){
     let person = "John"
     const age = 47
     var status ="single"
     console.log(age) // 47
 }
+console.log(age) // ReferenceError
 
 function color(){
     let name = "Purple"
@@ -15,10 +19,13 @@ function color(){
 }
 
 lol()
-color()
+color() // Even after executing the function, the variable is not accessible
 console.log(age) // ReferenceError
 
-// Variable declared outside function can be redeclared inside function
+// Whats the use of the scope?
+// But this allows same variable name to be given in different function.
+// Also define same variable inside and outside the function. Variable declared outside function can be redeclared inside function
+// They can also be accessed in their scope
 let bird = "parrot"
 function birdWatch(){
     let bird = "penguin"

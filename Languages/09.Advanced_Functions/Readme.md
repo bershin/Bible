@@ -1,5 +1,5 @@
 ## Scope
-### What is Scope
+### What is Scope?
 Variable visibility: It determines which piece/function of the code has access to that variable.
 ### Function Scope
 - Variable within function are visible only inside the function.
