@@ -6,15 +6,19 @@ Variable visibility: It determines which piece/function of the code has access t
 - Variable declared outside function can be redeclared inside function
 
 ### Block Scope
-- Any thing inside {} like "if" or "for" loop are block scope. Object block doesn't come under block scope.
-- Scope of var is outside to the block, but not for let and const. 
+What are blocks in JavaScript?
+- Any thing inside {} like "if" or "for" loop are block scope. 
+- Object block doesn't come under block scope.
+- Scope of var is outside to the block, that the reason var & const were introduced to have scope over block. 
 - "Var" can be redeclared in the same scope
 - Inside the block we have access to variables declared outside the block.
 
 ### Lexical Scope
-- In a nested function the variable doesn't have scope outside. But the variable is available in nested function and can be overritten.
-- You cannot execute the inner function directly.
-- React has nested function all the time.
+    - Nested function are lexically bound to parent function. 
+    - Means inner function can access variables from outer function not the other way around.
+    - If duplicate variable are declared outside, the closest one will take effect.
+    - You cannot execute the inner function di  rectly from outside all function.
+    - React has nested function all the time.
 
 ### Function Expression
 - Function do not have a name and stored in variable.

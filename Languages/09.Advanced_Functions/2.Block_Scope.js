@@ -13,7 +13,6 @@ if(true){
 console.log(status) 
 
 // Why not use var in block?
-
 var i = 10
 for(var i = 0; i < 5; i++){
     console.log(i) // 0 1 2 3 4

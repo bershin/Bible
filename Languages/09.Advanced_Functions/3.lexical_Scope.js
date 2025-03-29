@@ -1,3 +1,4 @@
+// The closest variable is used
 function outer() {
   let msg = 'I am outside!';
   function inner() {
@@ -11,10 +12,9 @@ function outer() {
   inner();
   console.log(msg); // I am outside!
 }
-
 outer();
 
-// The closest variable is used
+// Inner function has access to variable declared outside function
 function external() {
     let msg = 'I am outside!';
     function internal() {
@@ -27,5 +27,4 @@ function external() {
     internal();
     console.log(msg); // I am outside!
   }
-  
   external();
