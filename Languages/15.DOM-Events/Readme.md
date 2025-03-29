@@ -1,15 +1,25 @@
 ### Two ways not to add events
+onEVENTNAME
 - onclick()
     - <button onclick(alert("single clicked"))>Submit</button>
     - <input id="clicker" type="range" min="100" max="500">
+- ondblclick 
     - document.querySelector("#clicker").ondblclick = function(){alert("double clicked")}
-- mouseover()
+- onmouseover()
     - <img onmouseover(onme) type="range" min="100" max="500">
     - function onme(){alert("on me")}
-
+- onmouseout
+    - btn.addEventListener('onmouseout',()=>{
+        btn.innertext = "Click me"
+    })
+- scroll
+    - window.addEventListener('scroll',()=>{
+        console.log("Stop Scrolling")
+    })
 ### Get Screen & Browser dimension
-
+(This doesn't change)
 Screen -> `window.screen.availHeight`, `window.screen.availWidth`
+(This changes)
 Browser -> `window.innerHeight`, `window.innerWidth`
     - document.body.clientWidth
 

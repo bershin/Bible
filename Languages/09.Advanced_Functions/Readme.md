@@ -1,5 +1,6 @@
 ## Scope
-Variable visibility: Which part of the program have access to the variable.
+### What is Scope
+Variable visibility: It determines which piece/function of the code has access to that variable.
 ### Function Scope
 - Variable within function are visible only inside the function.
 - Variable declared outside function can be redeclared inside function

@@ -1,3 +1,4 @@
+### What is Scope?
 // Variable within function are visible only inside the function.
 function lol(){
     let person = "John"
