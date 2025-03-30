@@ -11,20 +11,37 @@
 - Infinity / -Infinity
     - Anynumber divide by zero.
 
-### Variables can change type
-let age = 12
-age = "twelve"
+### Python
+- "int" - Positive, negative, whole(integers)
+- "float" -> Positive, negative, decimals(float))
+- "str" - Strings, anything in Single or double quote( Don't mix)
+- "bool" - (true/false) NOT "true" or False
 
-### Variable Name
-- Cannot use predefined variables (let, document)
-- Naming using camel Case (numOfHens)
-- Cannot redeclare a variable in same scope
+## Variables
+### JavaScript
 
-## Variable declarartion
+#### Variable declarartion
 Variables are declared using
 - let - Latest and common way of declaring
 - const -> immutable after declaring
 - var -> Old way of doing(differs in scope)
+#### Variable Name
+- Cannot use predefined variables (let, document)
+- Naming using camel Case (numOfHens)
+- Cannot redeclare a variable in same scope
+#### Variables can change type
+let age = 12
+const firstname = "John"
+var married = true
+age = "twelve"
+
+
+### Python
+firstname = "John"
+age = 12
+height = 5.06
+married = True
+
 
 ## Operator:
 ### JavaScript

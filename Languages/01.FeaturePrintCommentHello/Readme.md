@@ -57,6 +57,38 @@ console.error("Hello World")
         - Install `$ pip install pytest`
 ### Comment
 - # -> Single line comment
-- /*  */ -> Multipline comment
+- """ Write comment here """  */ -> Multipline comment
 ### Print
 print("Hello World")
+### Create a environment in a project
+mkdir project1; cd project1
+conda create -p venv --python==3.12
+conda env list
+conda activate venv/
+pip install pandas
+
+vi requirements.txt
+pandas==2.1.0
+numpy
+:wq
+
+pip install -r requirements.txt
+vi basics.ipynb
+
+Note: conda create -n venv --python==3.12 -> Create in default folder where anaconda is installed
+
+### Create and execute code in ipynb file
+Its for experimental purpose only.
+Note: For production use .py file.
+
+Open "basic.ipynb" file
+Click "Select Kernel" -> Select "Python environment" -> Choose the environment in the project.
+
+1. Markdown
+2. Code
+
+Shift + Enter -> execute code
+Note: pip install ipykernel 
+
+Install package using jupyter notebook
+in code -> !pip install ipykernel

@@ -4,6 +4,12 @@ console.log(animal) // ReferenceError, if not defined, if defined below with var
 var animal = "dog"
 console.log(animal) // dog
 
+// Same as
+// var animal
+// console.log(animal) // ReferenceError, if not defined, if defined below with var, undefined
+// animal = "dog"
+// console.log(animal) // dog
+
 /* For "let" & "const" the variable is not hoisted */
 // console.log(bird) // ReferenceError
 let bird = "parrot"
