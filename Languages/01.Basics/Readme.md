@@ -61,21 +61,21 @@ console.error("Hello World")
 ### Print
 print("Hello World")
 ### Create a environment in a project
-mkdir project1; cd project1
-conda create -p venv --python==3.12
-conda env list
-conda activate venv/
-pip install pandas
-
+`mkdir project1; cd project1`  
+`conda create -p venv --python==3.12`  
+`conda env list`  
+`conda activate venv/`  
+`pip install pandas`  
+```
 vi requirements.txt
 pandas==2.1.0
 numpy
 :wq
+```
+`pip install -r requirements.txt`  
+`vi basics.ipynb`
 
-pip install -r requirements.txt
-vi basics.ipynb
-
-Note: conda create -n venv --python==3.12 -> Create in default folder where anaconda is installed
+Note: `conda create -n venv --python==3.12` -> Create in default folder where anaconda is installed
 
 ### Create and execute code in ipynb file
 Its for experimental purpose only.
@@ -86,7 +86,7 @@ Click "Select Kernel" -> Select "Python environment" -> Choose the environment i
 
 1. Markdown
 2. Code
-
+`
 Shift + Enter -> execute code
 Note: pip install ipykernel 
 
