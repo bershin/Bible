@@ -75,11 +75,11 @@ numpy
 `pip install -r requirements.txt`  
 `vi basics.ipynb`
 
-Note: `conda create -n venv --python==3.12` -> Create in default folder where anaconda is installed
+> Note: `conda create -n venv --python==3.12` -> Create in default folder where anaconda is installed
 
 ### Create and execute code in ipynb file
-Its for experimental purpose only.
-Note: For production use .py file.
+Its for experimental purpose only.  
+> Note: For production use .py file.
 
 Open "basic.ipynb" file
 Click "Select Kernel" -> Select "Python environment" -> Choose the environment in the project.
@@ -87,8 +87,6 @@ Click "Select Kernel" -> Select "Python environment" -> Choose the environment i
 1. Markdown
 2. Code
 `
-Shift + Enter -> execute code
-Note: pip install ipykernel 
+Shift + Enter -> execute code  
 
-Install package using jupyter notebook
-in code -> !pip install ipykernel
+> Install package using jupyter notebook in code -> `!pip install ipykernel`
