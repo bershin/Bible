@@ -9,8 +9,10 @@ Todo Tree
 
 ## JavaScript
 ### Installation of JavaScript
-- We can't install JavaScript. It is implemented by browsers.
-
+1. JavaScript is not installed like other software. But it is implemented by all browsers based on ECMA(organization) defines the specification for a programming language.
+2. Since different browser implements different features. [https://caniuse.com](https://caniuse.com/) is the website which shows features implemented in various website.
+### Document reference for JavaScript
+    1. Not official by JavaScript, but mozilla has created one https://developer.mozilla.org/en-US/docs/Web/JavaScript
 ## NodeJS
 ### Installation of Nodejs
 - Download and install binary: "https://nodejs.org/en/download"
@@ -24,6 +26,7 @@ Todo Tree
 - Download and install Anaconda: https://www.anaconda.com/download/success
 - Download and install Miniconda: https://www.anaconda.com/download/success#miniconda
     - Check installed version `conda --version`
+    - Check available environment `conda env list`
     - Activate conda `conda activate base` -> See base in shell prompt
     - Update installed version `conda update --all`
     - Conda install python by default - You can differentiate.
