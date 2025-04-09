@@ -17,7 +17,29 @@ Configure
 ```
 % git config --global user.name "Bershin John" 
 % git config --global user.email "bershin@gmail.com"
+% git config --global --list
 ```
+Keep the email secure in github
+Add key as authenticaton and signing 
+
+```
+mkdir testrepo && cd testrepo
+git init && ls -l .git
+rm -rf .git 
+git config --global init.defaultBranch main -> Change master branch to main branch
+git init
+git branch -m root -> Rename branch
+git status
+git add . / git add <file_name> -> Git start tracking the file by moving the file to staging area.
+git commit -m "comment" -> 
+git log 
+git remote add origin git@github.com:bjohn/testrepo.git -> Giving the hyperlink a aliase name origin
+git remote -v
+git push -u origin root
+## Consicutive push
+git push
+```
+
 
 # Github Readme Mark down - Cheat Sheet
 # -> Heading 1

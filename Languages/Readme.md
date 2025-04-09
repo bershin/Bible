@@ -1,6 +1,12 @@
 ## Install VScode
 - https://code.visualstudio.com/download
 
+### Go Extention
+go
+code runner
+Error Lens
+Todo Tree
+
 ## JavaScript
 ### Installation of JavaScript
 - We can't install JavaScript. It is implemented by browsers.
@@ -33,3 +39,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 - Download and install biary: "https://go.dev/"
 - Check installed version `go version`
 
+- Linux `sudo tar -C /usr/local/ -xzf go1.22.5.linux-amd64.tar.gz`
+export PATH=$PATH:/usr/local/go/bin
+
+## Github
+$ git --version

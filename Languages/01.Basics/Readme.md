@@ -90,3 +90,8 @@ Click "Select Kernel" -> Select "Python environment" -> Choose the environment i
 Shift + Enter -> execute code  
 
 > Install package using jupyter notebook in code -> `!pip install ipykernel`
+
+
+## GOLANG
+- Online code editor - https://go.dev/play/
+- Have two file app.js & index.html, add app.js as script in html and open html in browser. Refresh the browser each time you make change in js file.

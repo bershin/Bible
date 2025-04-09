@@ -1,29 +1,31 @@
-// Addition
+// Numbers are whole, decimal, positive, negative
+
+// Addition(+)
 console.log(2+3) // 5
 console.log(2.0+3) // 5
 console.log(2+3.0) // 5
 console.log(2.0+3.0) // 5
-// Substraction
+// Substraction(-)
 console.log(2-3) // -1
 console.log(2.0-3) // -1
 console.log(2-3.0) // -1
 console.log(2.0-3.0) // -1
-// Multiplication
+// Multiplication(*)
 console.log(2*3) // 6
 console.log(2.0*3) // 6
 console.log(2*3.0) // 6
 console.log(2.0*3.0) // 6
-// Division
+// Division(/)
 console.log(2/3) // 0.6666666666666666
 console.log(2.0/3) // 0.6666666666666666
 console.log(2/3.0) // 0.6666666666666666
 console.log(2.0/3.0) // 0.6666666666666666
-// Reminder
+// Reminder(%)
 console.log(2%3) // 2
 console.log(2.0%3) // 2
 console.log(2%3.0) // 2
 console.log(2.0%3.0) // 2
-// Power
+// Power(**)
 console.log(2**3) // 8
 console.log(2.0**3) // 8
 console.log(2**3.0) // 8

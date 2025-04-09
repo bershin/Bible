@@ -65,7 +65,7 @@ if(myScore > highScore){
 
 let password
 
-if(password >= 6){
+if(password.length >= 6){
     // Check space
     if(password.indexOf(" ") === -1){
         console.log("Valid Password!")

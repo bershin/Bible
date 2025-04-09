@@ -8,6 +8,11 @@ console.log(fullName.toUpperCase()) // BERSHIN JOHN
 // Remove leading & trialing spaces
 const greeting = "   Hello All   "
 console.log(greeting.trim()) // Hello All
+console.log(greeting.trimStart()) // Hello All
+console.log(greeting.trimLeft()) // Hello All
+
+console.log(greeting.trimEnd()) // Hello All
+console.log(greeting.trimRight()) // Hello All
 
 /* Chaining */
 console.log("  BershinJohn@Gmail.com ".trim().toLowerCase()) // bershin@gmail.com
