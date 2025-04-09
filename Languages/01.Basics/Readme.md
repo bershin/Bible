@@ -60,7 +60,12 @@ console.error("Hello World")
 - """ Write comment here """  */ -> Multipline comment
 ### Print
 print("Hello World")
-### Create a environment in a project
+### Create a environment in a project using anaconda
+`mkdir project1; cd project1`  
+`python3 -m venv .aisandbox`  
+`source .aisandbox/bin/activate` 
+pip install crewai
+### Create a environment in a project using anaconda
 `mkdir project1; cd project1`  
 `conda create -p venv --python==3.12`  
 `conda env list`  

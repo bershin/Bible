@@ -22,6 +22,7 @@ Todo Tree
 ### Installation of Python(>3.7.8)
 - Download and install binary: https://www.python.org/downloads/
 - Check installed version `python --version`
+- 
 ### Install Anaconda (Package for Datascience & machine learning)
 - Download and install Anaconda: https://www.anaconda.com/download/success
 - Download and install Miniconda: https://www.anaconda.com/download/success#miniconda
