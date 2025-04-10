@@ -13,10 +13,6 @@ console.log(fruits)
 //     'cherry'
 //   ]
 
-// Delete 2 item from index 3
-console.log(fruits.splice(3, 2)) // [ 'orange', 'apple' ]
-console.log(fruits) // [ 'mango', 'banana', 'grapes', 'pine apple', 'cherry' ]
-
 // Insert multiple values
 console.log(fruits.splice(2, 0, "pomo","berry")) // []
 console.log(fruits) 
@@ -43,3 +39,7 @@ console.log(fruits)
 //     'pine apple',
 //     'cherry'
 //   ]
+
+// Delete 2 item from index 3
+console.log(fruits.splice(3, 2)) // [ 'orange', 'apple' ]
+console.log(fruits) // [ 'mango', 'banana', 'grapes', 'pine apple', 'cherry' ]
