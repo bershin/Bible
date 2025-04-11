@@ -31,7 +31,7 @@ function isOdd(num) {
 
 function isPurple(color) {
     return color.toLowecase() === 'purple';
-  }
+}
 
 // Return from function have argument as array
 

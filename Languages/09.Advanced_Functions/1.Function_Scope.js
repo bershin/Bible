@@ -9,7 +9,7 @@ function lol(){
     var status ="single"
     console.log(age) // 47
 }
-console.log(age) // ReferenceError
+// console.log(age) // ReferenceError
 
 function color(){
     let name = "Purple"
@@ -20,8 +20,17 @@ function color(){
 
 lol()
 color() // Even after executing the function, the variable is not accessible
-console.log(age) // ReferenceError
+// console.log(age) // ReferenceError
 
+// Gobal scope - Define a variable with out var,let,const is global scope
+function magic(){
+    let name = "Purple"
+    age = 12
+    var status ="dark"
+    console.log(age) // 12
+}
+magic()
+console.log(age) // 12
 // Whats the use of the scope?
 // But this allows same variable name to be given in different function.
 // Also define same variable inside and outside the function. Variable declared outside function can be redeclared inside function

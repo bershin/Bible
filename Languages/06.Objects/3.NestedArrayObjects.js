@@ -35,7 +35,7 @@ const game = {
         username : 'Blue',
         playingAs: 'X'
     },
-    player1: {
+    player2: {
         username : 'Muffins',
         playingAs: '0'
     },
